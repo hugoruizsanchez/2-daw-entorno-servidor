@@ -1,0 +1,4 @@
+// Las sesiones de usuario difieren de las cookies en su lugar de almacenamiento: las sesiones se guardan en el servidor, las cookies, en el cliente.
+		// Las cookies estÃ¡n limitadas, no asÃ­ las sesiones, que dependen del servidor para ser guardadas.
+		
+		// -> Las configuraciones concretas relativas a sesiones (y cookies) se encuentran en el fichero php.ini, y son: session.use_coockies, session.use_only_cookies, session.save_handler, session.name, session.auto_start, session.cookie_lifetime, session.gc_maxlifetime.
